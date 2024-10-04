@@ -5,21 +5,11 @@
   text-align: center;
 }
 
-:root {
-  --primary-color: #2A9D8F;
-  --secondary-color: #264653;
-  --accent-color: #E76F51;
-  --background-color: #F4F1DE;
-  --text-color: #333333;
-
-  --button-bg: var(--accent-color);
-  --button-text-color: #ffffff;
-  --font-family: 'Roboto', sans-serif;
-}
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
   color: var(--text-color);
+
 }
 
 
@@ -35,7 +25,9 @@ button {
   transition: background-color 0.3s;
 }
 button:hover {
-  background-color: var(--secondary-color);
+  background-color: white;
+  color:black;
+  
 }
 
 .text-primary {
