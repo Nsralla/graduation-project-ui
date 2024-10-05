@@ -1,6 +1,6 @@
 import "./Welcome.css";
 import { motion, useAnimation } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const Welcome = () => {
@@ -55,8 +55,8 @@ const Welcome = () => {
           background="transparent"
           speed="1"
           style={{
-            width: "18.75rem",
-            height: "18.75rem",
+            width: "22.75rem",
+            height: "22.75rem",
           }}
           loop
           autoplay

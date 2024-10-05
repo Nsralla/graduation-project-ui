@@ -27,17 +27,26 @@
     position: relative;
     padding-left: 1.6rem;
 }
-.text-section:before{
+.text-section:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
-    width: 4px;
-    height: 100%;
-    background-color: var(--text-color);
-    /* z-index: -1; */
-    /* transform: skewY(-5deg);
-    transform-origin: top left; */
+    width: 2px;
+    height: 90%;
+    background-color: #dbd7d7;
+    z-index: -1;
+}
+.text-section::after {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 3px;
+    height: 40%;
+    border-radius: 6px;
+    background-color: white;
+    z-index: 1;
 }
 
 .vision-text {
